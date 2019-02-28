@@ -15,11 +15,6 @@ Please fork and clone this repository. It contains a modified version of the Ast
 3. Set the `app`'s `launchArguments` to `["UITesting"]`. This string is the launch argument that the application will look for to know that it use local data instead of making network calls.
 
 # Part 2 - Writing the tests
-
-Before reading the requirements for the tests to create, remember to follow the `TestPage` outline. You should create a struct that conforms to the `TestPage` protocol for every view controller. These pages should have the following:
-  - **Computed properties** for every element (that you care about). This also includes adding Accessibility Identifiers to those elements where applicable. **NOTE:** accessibility identifiers have already been added to the previous sol (<) and next sol (>) bar button items that get created programmatically
-  - **Actions** (or interactions) that you can take using the elements you just made computed properties for. 
-  - **Verifications** that will test for expected behavior.
   
 Create a test for every interaction you can think of. To get you started:
 
